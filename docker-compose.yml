@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  demo-angular-app:
+    image: demo-angular-app
+    build: .
+    ports:
+      - :
